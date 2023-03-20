@@ -1,6 +1,7 @@
 import java.util.HashSet;
 
-class Solution {
+class containsDuplicate {
+
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,1};
         System.out.println(containsDuplicate(nums));
@@ -18,7 +19,6 @@ class Solution {
             else{
                 set.add(num);
             }
-       }
-       
+       }   
     return false;}
 }
